@@ -13,19 +13,29 @@ It uses pandoc to convert markdown(which is my favorite way) to epub/pdf/other e
 + 支持插入图片
 # 环境依赖
 在ubuntu20.04LTS中，你需要安装：
-+ pandoc
++ pandoc    
+
+
 用于格式转换
 ```bash
 sudo apt install pandoc
 ```
-+ kindlegen
-用于生成mobi
++ kindlegen      
+
+
+
+用于生成mobi       
+
+
 由于kindlegen不再提供linux版，因此在这里放一个百度网盘的连接：
 [download](https://pan.baidu.com/s/1mgszE44)   
 或者你可以在本仓库的kindlegen文件夹下载。
 使用方式：
 解压后移动文件夹里的kindlegen至 /usr/local/bin/
-+ xelatex
++ xelatex      
+
+
+
 用于帮助pandoc生成pdf
 ```bash
 sudo apt-get remove texlive-latex-base 
