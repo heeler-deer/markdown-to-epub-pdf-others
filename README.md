@@ -47,9 +47,13 @@ make pdf
 ```
 可以在build文件夹下生成pdf文件。
 
+执行：
+```bash
+make mobi
+```
+可以在build文件夹下生成mobi文件。
 
-
-目前仅支持生成这两种文件。
+目前仅支持生成这三种文件。
 
 
 
@@ -58,9 +62,35 @@ make pdf
 执行：
 
 ```bash
-make clean
+make cleanall
 ```
 可以删除所生成的文件。
+
+
+执行：
+
+```bash
+make cleanepub
+```
+可以删除所生成的epub文件。
+
+
+执行：
+
+```bash
+make cleanpdf
+```
+可以删除所生成的pdf文件。
+
+
+
+执行：
+
+```bash
+make cleanmobi
+```
+可以删除所生成的mobi文件。
+
 # 本仓库各文件解释
 ```bash
 master/epub$ tree
