@@ -87,6 +87,6 @@ master/epub$ tree
 + markdown文件夹下即为各markdown文件，
 + meta文件夹存放生成电子书的目录以及其他样式的文件
 # 本项目如何运行
-如你所见，这个项目完全依赖于pandoc以及latex引擎,kindlegen
+如你所见，这个项目完全依赖于pandoc,kindlegen以及latex引擎
 # 注意：
 生成的epub为epub3，epub3以下对于数学公式的渲染不友善，建议使用支持epub3阅读的阅读器，国内用户可以使用neatreader.
