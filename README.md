@@ -120,4 +120,7 @@ master/epub$ tree
 如你所见，这个项目完全依赖于pandoc,kindlegen以及latex引擎，本项目仅仅通过makefile提供简便的操作
 # 注意：
 本项目生成的epub为epub3，epub3以下对于数学公式的渲染不友善，建议使用支持epub3阅读的阅读器，国内用户可以使用**neatreader**网页版.      
+
+
+
 而mobi对数学公式仍不友善，解决办法是把数学公式转为图片，我不认为这是一个好的解决办法，因此如同大多数mobi格式的书一样，本项目生成的mobi对latex支持不好且未将其转换为图片。
