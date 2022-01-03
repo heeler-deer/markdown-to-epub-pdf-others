@@ -38,7 +38,7 @@ sudo apt install pandoc
 
 用于帮助pandoc生成pdf
 ```bash
-sudo apt-get remove texlive-latex-base 
+sudo apt-get install texlive-latex-base 
 sudo apt-get install texlive-xetex
 
 ```
