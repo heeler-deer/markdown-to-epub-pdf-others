@@ -5,6 +5,9 @@ It uses pandoc to convert markdown(which is my favorite way) to epub/pdf/other e
 # 价值
 提供一个本地生成epub/pdf/other ebook的方式，通过预先编写makefile减少对pandoc的重复使用，
 欢迎各位fork后自己编写makefile
+目前仅做了少部分工作：
++ 支持数学公式
++ 支持插入图片
 # 环境依赖
 在ubuntu20.04LTS中，你需要安装：
 + pandoc
