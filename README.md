@@ -35,12 +35,23 @@ sudo apt-get install texlive-xetex
 ```bash
 make epub
 ```
-可以在build文件夹下生成epub文件，执行：
+可以在build文件夹下生成epub文件，
+
+
+执行：
 ```bash
 make pdf
 ```
 可以在build文件夹下生成pdf文件。
+
+
+
 目前仅支持生成这两种文件。
+
+
+
+
+
 执行：
 
 ```bash
