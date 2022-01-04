@@ -35,7 +35,8 @@ pdf: $(PDF_FILE)
 .PHONY: mobi
 mobi: $(MOBI_FILE)
 
-
+.PHONY: all
+all: $(MOBI_FILE) $(PDF_FILE) $(EPUB_FILE)
 
 $(EPUB_FILE): cleanepub $(CHAPTERS) meta/title.txt meta/cover.jpg meta/stylesheet.css meta/metadata.xml 
 	pandoc -t epub3\
