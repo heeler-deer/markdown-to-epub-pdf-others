@@ -45,7 +45,16 @@ sudo apt-get install texlive-xetex
 
 # 如何使用
 
-本地下载本仓库，安装好所需依赖后，执行：
+本地下载本仓库，安装好所需依赖后，
+
+执行：
+```bash
+make all
+```
+可以在build文件夹下生成所有支持的电子书，
+
+
+执行：
 ```bash
 make epub
 ```
